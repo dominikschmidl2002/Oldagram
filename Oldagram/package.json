@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0h2qi52qs",
+  "description": "https://v2.scrimba.com/s0h2qi52qs",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

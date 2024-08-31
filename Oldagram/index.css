@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+/* top-header */
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px
+}
+
+.logo-image{
+    width: 127px;
+    height: 33px;
+}
+
+.muj-avatar{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+
+/* posts */
+
+header{
+    display: flex;
+}
+
+.avatar{
+    margin: 10px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.name{
+    margin-top: 11px;
+    margin-bottom: 0.5px;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+
+.place{
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.post{
+    width: 375px;
+}
+
+
+/* icons */
+
+.container{
+    display: flex;   
+}
+
+.likes{
+    margin: 13px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.username{
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 13px;
+    margin-top: 0px;
+    margin-right: 3px;
+}
+
+.ducreux-span{
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 3px;
+}
+
+#ducreux-username-comment{
+    margin-left: 13px;
+    margin-top: 0px;
+    margin-right: 3px;
+    
+}
+
+.comment{
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.likes{
+    margin-top: 0px;
+}
+
+.icon{
+    width: 23px;
+    height: 22px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.icon:hover{
+    animation: swing 0.5s;
+}
+@keyframes swing{
+    0%{
+        transform: rotateZ(0deg) translate(0,0);
+    }
+    20%{
+        transform: rotateZ(20deg) translate(7px,-5px);
+    }
+    40%{
+        transform: rotateZ(-10deg) translate(-7px,2px);
+    }
+    60%{
+        transform: rotateZ(11deg) translate(5px,-1px);
+    }
+    80%{
+        transform: rotateZ(0deg) translate(0,0);
+    }
+}
